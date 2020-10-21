@@ -1,7 +1,7 @@
 # TECH
 
 
-[vimwiki](vimwiki)
+[vimwiki](./vimwiki)
 
 [devops](./devops/index.md)
 
