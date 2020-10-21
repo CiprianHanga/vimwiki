@@ -8,8 +8,8 @@ Daca rulezi ```,w,w``` din _interiorul_ radacinii centrale (vimwiki/), vimwiki-d
 crea un folder `diary/` in care va salva jurnalul abia creat.
 
 Dar daca intri intr-un sub-folder custom al directorului vimwiki central (care a fost creat
-de tine in mod manual), atunci cand vei rula vimwiki-diary va fi creat cate un 
-diary separat pentru fiecare sub-director.
+de tine in mod manual, ex: `~/vimwiki/tech`), atunci cand vei rula vimwiki-diary va fi creat cate un 
+diary separat pentru fiecare sub-director (`~/vimwiki/tech/diary`, diferit de `~/vimwiki/diary` principal).
 
 De aceea e important ca de fiecare data cand vrei sa scrii ceva in diary sa te afli in 
 pagina HUB centrala din vimwiki.
@@ -49,9 +49,11 @@ class Entry(db.Model):
 
 Also on YouTube (helped me setting up Markdown preview):
 [Writing and Previewing Markdown in Real Time](https://nickjanetakis.com/blog/writing-and-previewing-markdown-in-real-time-with-vim-8)
+
 This is yet another tutorial that teaches how to setup vimwiki and gollum together to 
 create a personal wiki that has all the bells and whistles you'd expect.
 [Creating a personal wiki with Vimwiki and Gollum](https://davidyat.es/2017/09/01/vimwiki-plus-gollum/)
+
 #### 2020-10-19 20:23
 
 I'm pretty happy how it turned out. I can edit .MD files in vim and get a pretty decent
